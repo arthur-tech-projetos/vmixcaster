@@ -1,0 +1,5 @@
+D:\VMIXCaster\bin\Release\net8.0-windows\publish\VMIXCaster.exe
+D:\VMIXCaster\bin\Release\net8.0-windows\publish\VMIXCaster.dll
+D:\VMIXCaster\bin\Release\net8.0-windows\publish\VMIXCaster.deps.json
+D:\VMIXCaster\bin\Release\net8.0-windows\publish\VMIXCaster.runtimeconfig.json
+D:\VMIXCaster\bin\Release\net8.0-windows\publish\VMIXCaster.pdb

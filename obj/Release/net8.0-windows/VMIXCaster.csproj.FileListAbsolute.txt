@@ -1,0 +1,14 @@
+D:\VMIXCaster\bin\Release\net8.0-windows\VMIXCaster.exe
+D:\VMIXCaster\bin\Release\net8.0-windows\VMIXCaster.deps.json
+D:\VMIXCaster\bin\Release\net8.0-windows\VMIXCaster.runtimeconfig.json
+D:\VMIXCaster\bin\Release\net8.0-windows\VMIXCaster.dll
+D:\VMIXCaster\bin\Release\net8.0-windows\VMIXCaster.pdb
+D:\VMIXCaster\obj\Release\net8.0-windows\VMIXCaster.GeneratedMSBuildEditorConfig.editorconfig
+D:\VMIXCaster\obj\Release\net8.0-windows\VMIXCaster.AssemblyInfoInputs.cache
+D:\VMIXCaster\obj\Release\net8.0-windows\VMIXCaster.AssemblyInfo.cs
+D:\VMIXCaster\obj\Release\net8.0-windows\VMIXCaster.csproj.CoreCompileInputs.cache
+D:\VMIXCaster\obj\Release\net8.0-windows\VMIXCaster.dll
+D:\VMIXCaster\obj\Release\net8.0-windows\refint\VMIXCaster.dll
+D:\VMIXCaster\obj\Release\net8.0-windows\VMIXCaster.pdb
+D:\VMIXCaster\obj\Release\net8.0-windows\VMIXCaster.genruntimeconfig.cache
+D:\VMIXCaster\obj\Release\net8.0-windows\ref\VMIXCaster.dll

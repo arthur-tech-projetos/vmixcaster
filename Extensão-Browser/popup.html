@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        /* CSS RESET & VARIAVEIS SAAS */
+        :root {
+            --bg-color: #f4f7f6;
+            --header-bg: #152243; /* Azul marinho padrão do painel */
+            --accent-yellow: #ffd100; /* Amarelo de destaque */
+            --card-bg: #ffffff;
+            --text-main: #2d3748;
+            --text-muted: #718096;
+            --border-color: #e2e8f0;
+            --btn-hover: #1e3163;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            width: 320px;
+            background-color: var(--bg-color);
+            font-family: 'Poppins', sans-serif;
+            color: var(--text-main);
+        }
+
+        /* CABEÇALHO */
+        .header {
+            background-color: var(--header-bg);
+            padding: 16px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .logo-text {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: var(--accent-yellow);
+            font-size: 16px;
+            letter-spacing: 0.5px;
+        }
+        .badge {
+            background-color: rgba(255, 255, 255, 0.15);
+            color: #fff;
+            font-size: 10px;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+
+        /* CONTEÚDO PRINCIPAL (CARD) */
+        .container {
+            padding: 20px;
+        }
+        .card {
+            background: var(--card-bg);
+            border-radius: 10px;
+            padding: 16px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            border: 1px solid var(--border-color);
+        }
+        
+        /* FORMULÁRIOS */
+        .form-group {
+            margin-bottom: 16px;
+        }
+        .form-group label {
+            display: block;
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--text-muted);
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .custom-select {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--text-main);
+            background-color: #f8fafc;
+            outline: none;
+            cursor: pointer;
+            transition: all 0.2s;
+            box-sizing: border-box;
+        }
+        .custom-select:focus {
+            border-color: var(--header-bg);
+            background-color: #fff;
+        }
+
+        /* BOTÃO AÇÃO */
+        .btn-primary {
+            width: 100%;
+            background-color: var(--header-bg);
+            color: #fff;
+            border: none;
+            padding: 12px;
+            border-radius: 6px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 13px;
+            font-weight: 700;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            transition: background-color 0.2s, transform 0.1s;
+        }
+        .btn-primary:hover {
+            background-color: var(--btn-hover);
+        }
+        .btn-primary:active {
+            transform: scale(0.98);
+        }
+        .btn-primary:disabled {
+            background-color: var(--text-muted);
+            cursor: not-allowed;
+        }
+
+        /* ÁREA DE STATUS */
+        .status-box {
+            margin-top: 16px;
+            padding: 12px;
+            border-radius: 8px;
+            background-color: var(--card-bg);
+            border: 1px dashed var(--border-color);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        .status-text {
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--text-muted);
+            transition: color 0.3s;
+        }
+        .status-icon {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #cbd5e1;
+            transition: background-color 0.3s;
+        }
+        /* Cores dinâmicas de status injetadas pelo JS */
+        .status-waiting { background-color: #f59e0b; }
+        .status-success { background-color: #10b981; }
+        .status-error { background-color: #ef4444; }
+    </style>
+</head>
+<body>
+    <div class="header" style="padding: 10px 15px 5px 15px; display: flex; justify-content: space-between; align-items: center;">
+    <img src="assets/logo-popup.png" alt="vMix Caster" style="max-width: 120px;">
+    <span class="badge" style="margin: 0;">v1.0</span>
+</div>
+
+    <div class="container">
+        <div class="card">
+            <div class="form-group">
+                <label for="quality">Qualidade de Captura</label>
+                <select id="quality" class="custom-select">
+                    <option value="1080">1080p (Alta Resolução)</option>
+                    <option value="720">720p (Download Rápido)</option>
+                </select>
+            </div>
+
+            <button id="sendBtn" class="btn-primary">
+                <!-- Ícone de Envio SVG -->
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                JOGAR NO VMIX
+            </button>
+        </div>
+
+        <div class="status-box">
+            <span id="statusIcon" class="status-icon"></span>
+            <span id="statusMsg" class="status-text">Pronto para operação.</span>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

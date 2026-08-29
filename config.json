@@ -1,0 +1,12 @@
+{
+  "VmixIp": "192.168.56.1",
+  "PastaRede": "D:\\PROJETO VMIX MNFM\\CLIPES YOUTUBE",
+  "VmixInput": 10,
+  "InputIntervalo": 5,
+  "InputAudioCarimbo": 9,
+  "AtivarCorteAutomatico": true,
+  "CorteAutomaticoAoBaixar": false,
+  "InputGradeClipes": 4,
+  "InputVinhetasVideo": 3,
+  "InputVinhetasAudio": 8
+}

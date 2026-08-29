@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "VMIXCaster",
+  "version": "1.0",
+  "description": "Envia vídeos do YouTube direto para o vMix",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://localhost:5050/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "assets/logo-icon.png"
+  },
+  "icons": {
+    "16": "assets/logo-icon.png",
+    "48": "assets/logo-icon.png",
+    "128": "assets/logo-icon.png"
+  }
+}
