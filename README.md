@@ -1,9 +1,8 @@
 <p align="center">
-  <!-- Se você subir a imagem da logo pro GitHub, pode substituir o link abaixo -->
-  <img src="https://raw.githubusercontent.com/arthur-tech-projetos/vmixcaster/main/Extens%C3%A3o-Browser/assets/logo-popup.png" alt="vMix Caster Azul Logo" width="300">
+  <img src="https://raw.githubusercontent.com/arthur-tech-projetos/vmixcaster/main/Extens%C3%A3o-Browser/assets/logo-popup.png" alt="vMix Caster Logo" width="300">
 </p>
 
-<h1 align="center">vMix Caster Azul (PRO Broadcast)</h1>
+<h1 align="center">VMIXCaster (PRO Broadcast)</h1>
 
 <p align="center">
   <strong>Baixe clipes do YouTube em alta qualidade e gerencie intervalos de rádio diretamente na sua produção vMix.</strong>
@@ -20,7 +19,7 @@
 
 ## 🚀 O que é o VMIXCaster?
 
-O **VMIXCaster Azul** é uma solução de automação broadcast de ponta a ponta projetada para emissoras e web rádios. Ele cria uma ponte perfeita entre o seu navegador de internet e o software de produção ao vivo **vMix**. 
+O **VMIXCaster** é uma solução de automação broadcast de ponta a ponta projetada para emissoras e web rádios. Ele cria uma ponte perfeita entre o seu navegador de internet e o software de produção ao vivo **vMix**. 
 
 Com apenas um clique na extensão do Chrome/Brave, o servidor local baixa o vídeo desejado em altíssima resolução, processa o arquivo e injeta diretamente na lista de reprodução do vMix, aplicando transições de áudio e vídeo de forma autônoma.
 
