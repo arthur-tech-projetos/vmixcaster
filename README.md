@@ -17,13 +17,13 @@
 
 ---
 
-## 📡 O que é o VMIXCaster?
+##  O que é o VMIXCaster?
 
 O **VMIXCaster** é uma solução de automação broadcast de ponta a ponta projetada para emissoras e web rádios. Ele cria uma ponte perfeita entre o seu navegador de internet e o software de produção ao vivo **vMix**. 
 
 Com apenas um clique na extensão do Chrome/Brave, o servidor local transfere o vídeo desejado em altíssima resolução, processa o ficheiro e injeta-o diretamente na lista de reprodução do vMix, aplicando transições de áudio e vídeo de forma totalmente autónoma.
 
-## ✨ Recursos Principais
+##  Recursos Principais
 
 * **Transferência Ultra-Rápida (Ultra-Speed):** Utiliza o motor `yt-dlp` com 16 ligações simultâneas. Traz otimização inteligente para descarregar ficheiros 720p nativos de forma quase instantânea ou 1080p de alta qualidade. O sistema instala e atualiza o motor automaticamente no primeiro uso.
 * **Feedback Visual em Tempo Real:** A extensão do navegador possui uma barra de progresso inteligente que comunica com o servidor C# a cada 0.5 segundos, mostrando o progresso da transferência e o estado do processamento sem que o operador precise de adivinhar o que está a acontecer.
@@ -33,13 +33,13 @@ Com apenas um clique na extensão do Chrome/Brave, o servidor local transfere o 
 * **Alta Performance e Estabilidade:** Conta com a opção de "Auto-Start" invisível juntamente com o Windows, proteção inteligente de memória RAM (evitando o congelamento de atalhos) e geração de histórico em ficheiros de Log diários (`.txt`).
 * **Auto-Update Nativo:** Mantém-se sempre atualizado, procurando e instalando silenciosamente (100% seguro, sem ficheiros `.bat`) as versões mais recentes nos Releases do GitHub.
 
-## ⚙️ Arquitetura do Sistema
+##  Arquitetura do Sistema
 
 O projeto é dividido em duas partes que trabalham em conjunto:
 1.  **Servidor C# (O Motor):** Fica oculto na bandeja do sistema (junto ao relógio) a escutar na porta `5050`. Gere as transferências, a lógica de automação, os atalhos físicos e envia os comandos HTTP para a API do vMix.
 2.  **Extensão de Navegador (O Controlo):** Uma interface limpa (popup) injetada no navegador baseado em Chromium, que extrai os URLs e os envia para o Servidor C# com um único clique (agora com painel de progresso visual dinâmico).
 
-## 🚀 Como Instalar e Usar
+##  Como Instalar e Usar
 
 ### 1. Instalar o Servidor (Windows)
 1. Vá até à aba [Releases](../../releases/latest) deste repositório e descarregue o ficheiro executável mais recente (`VMIXCaster.exe`).
@@ -58,7 +58,7 @@ O projeto é dividido em duas partes que trabalham em conjunto:
 4. Configure os **Atalhos do Teclado** se for utilizar um controlador físico.
 5. Selecione se deseja iniciar automaticamente com o Windows e clique em **Guardar Todas as Configurações**.
 
-## 💻 Requisitos do Sistema
+##  Requisitos do Sistema
 * Windows 10 ou superior.
 * vMix instalado e a correr com a funcionalidade *Web Controller* ativada.
 * Navegador baseado em Chromium (Chrome, Brave, Edge) para a extensão.
