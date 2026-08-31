@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Vers%C3%A3o-1.0-blue.svg" alt="Version">
+  <img src="https://img.shields.io/badge/Vers%C3%A3o-1.4-blue.svg" alt="Version">
   <img src="https://img.shields.io/badge/Plataforma-Windows-lightgrey.svg" alt="Platform">
   <img src="https://img.shields.io/badge/Linguagem-C%23%20%7C%20.NET%208.0-512BD4.svg" alt="C#">
   <img src="https://img.shields.io/badge/Integra%C3%A7%C3%A3o-vMix%20API-4CAF50.svg" alt="vMix">
